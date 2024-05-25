@@ -2,9 +2,25 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>Etch-A-Sketch</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div id="container">
+        <div id="control-container">
+            <label for="randomColorCheckbox">Randomize Color?</label>
+            <input type="checkbox" id="randomColorCheckbox">
+            <label for="gridSizeInput">Grid Size (2-100)</label>
+            <input type="number" id="gridSizeInput" min="2" max="100">
+            <button id="generateDivsButton">Generate Grid</button>
+        </div>
+        <div id="grid-container">
+            <div id="gridDivContainer">
+
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
